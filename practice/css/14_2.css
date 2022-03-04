@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'EliceDigitalBaeum-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin:0; padding:0;}
+li{list-style: none;}
+a{
+    text-decoration: none;
+    color: #333;
+}
+html, body {
+    color:#333;
+}
+video {
+    height: 100vh; 
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    box-shadow: 0 20px 10px rgb(134, 134, 134)inset;
+}
+.cont1 .title {
+    text-align: center;
+    position: absolute; 
+    top: 35%; 
+    width: 100%;
+}
+.cont1 .title h4 {
+    font-size: 80px;
+    color:rgb(189, 174, 255);
+    font-family: 'GmarketSansBold';
+}
+.cont1 .title p:nth-of-type(1) {
+    color:rgba(168, 168, 168);
+    font-size: 25px;
+}
+.cont1 .title p:nth-of-type(2) {
+    font-size: 30px;
+    color:rgba(69, 112, 112, 0.774);
+    padding-top: 10px;
+    font-weight: bolder;
+    font-family: 'EliceDigitalBaeum-Bd';
+   
+}
+.cont2 {
+    text-align: center;
+}
+.cont2 .menu {
+    box-shadow: 0 10px 20px rgba(156, 156, 156, 0.781);
+    display: flex; 
+    justify-content: center;
+    background-color:rgb(105, 28, 156);
+}
+.cont2 .menu ul li{
+    display: inline-block;
+    padding: 20px 45px;
+    line-height: 13px;      
+}
+.cont2 h2 {
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(156, 156, 156, 0.651);
+    font-family: 'GmarketSansBold';
+}
+.cont2 .menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cont2 .menu ul li:hover {
+       box-shadow: 0 0 20px rgb(220, 160, 255) inset;
+       transition: 0.4s;
+}
+/* alculfaksdjfalskdjgalskdgjalsdkgjal;skdgjals;kdjgla;skdjga */
+.cont3 .expl {
+    background-color: #a1afff80;
+    height: 80vh;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;  
+}
+.cont3 .expl img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover; 
+}
+.cont3 .expl div {
+    width:50%;
+    height:100%;
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+.cont3 .expl div dl dt {
+    color: #333;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'GmarketSansBold';
+}
+.cont3 .expl div dl dd {
+    color: rgb(131, 67, 177);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Cafe24SsurroundAir';
+}
+.cont3 .expl div p {
+    color:rgba(86, 124, 124, 0.753);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'EliceDigitalBaeum-Bd';
+}
+.cont4 {
+    background-color: rgb(105, 28, 156);
+    height: 60vh;
+    padding-top: 80px;
+    text-align: center;
+}
+.cont4 a {
+    color:#fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px 45px;
+    font-weight: bolder;
+}
+.cont4 a:hover {
+    font-size: 19px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.191);
+    border-radius: 5px;
+    padding: 15px 45px;
+}
+.cont4 p:nth-of-type(2) {
+   font-size: 14px;
+   justify-content: end; 
+}
+
